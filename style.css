@@ -1,0 +1,233 @@
+body { 
+
+    margin: 0;  
+    background-color: FCF5E9;
+    text-align: center;
+
+} 
+
+h2 {
+    font-size: 20px; 
+    margin-bottom: 10px; 
+    text-align: center;
+
+}
+.font1 {
+    font-family: 'Honeymoon Regular', serif; /* Use the font you want for "Home of", "2020's", and "Maison a" */
+}
+
+.font2 {
+    font-family: 'EB Garamond Regular', serif; /* Use the font you want for "Sylvie and Jerome", "a story of the", and "Paris" */
+    font-style: normal; /* Italicize the text */
+}
+
+
+p{
+    padding-top: 80px;
+      font-family: "Roboto Mono", monospace;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#main { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    flex-direction: column; 
+    background-color: #D4AD2C; 
+}
+
+ #landing-text {
+    text-decoration: none;
+    color: black;
+    line-height: -500px;
+}
+#landing-text:hover {
+    color: gray; 
+}
+
+a {
+    color: black; /* Change this to your desired color for unvisited links */
+}
+
+a:visited {
+    color: black; /* Change this to your desired color for visited links */
+}
+
+a:hover {
+    color: black; /* Change this to your desired color when the link is hovered over */
+}
+
+a:active {
+    color: black; /* Change this to your desired color when the link is being clicked */
+}
+
+
+.column {
+    width: 45%;
+    padding: 20px;
+    text-align:justify;
+}
+
+
+#back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+#content {
+    display: none; 
+    padding: 20px;
+}
+
+#content:target {
+    display: flex; 
+}
+
+#main:target {
+    display: none; 
+}
+
+.roboto-mono-<uniquifier> {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+
+         margin-left:80px;
+         margin-right:80px;
+}
+
+body {
+    background-color: #FCF5E9
+}
+
+
+header{
+    padding:10px 0;
+    position: sticky;
+    top: 0;
+    z-index:1000;
+    background-color: #FCF5E9
+}
+
+nav .nav-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 2000px;
+    margin:0 auto;
+    height: 100px;
+    padding: 0px;
+    background-color: #FCF5E9
+}
+nav .nav-title{
+    flex: 1;
+    text-align: center;
+    font-size: 1.0em;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #FCF5E9
+}
+
+nav .nav-links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    background-color: #FCF5E9
+
+}
+ 
+#container-main{
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+    margin:10px;
+    height:200px;
+    background-color: #FCF5E9
+}
+
+#container-main div{ 
+    flex:1;
+    margin:60px;
+    padding:20px;
+    box-sizing:border-box;
+    text-align:center;
+    padding:10px;
+    min-width:450px;
+    background-color: #FCF5E9
+}
+p {
+            color: #3E4E37;
+            margin-top: 35px;
+        }
+
+/*       div {
+            text-align: center;
+            max-width: 200px;
+            background-color: white;
+            padding: 80px;
+            border-radius: 10px;
+        } */
+
+/*        h1, h2, h3 {
+            color: #3E4E37;
+            font-family: 'Hoefler text', sans-serif;
+}
+
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-family: 'Kapakana Light', sans-serif;
+            font-size: 24px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            margin: 10px 0;
+            text-align: left;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #999;
+        } -->
